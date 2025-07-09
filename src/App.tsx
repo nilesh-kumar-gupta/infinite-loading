@@ -1,11 +1,17 @@
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import './App.css'
 import Listing from "./components/Listing.tsx";
+import { ObserverProvider } from './context/ObserverContext.tsx';
+
+const queryClient = new QueryClient();
 
 function App() {
-
-
   return (
-    <div><Listing /></div>
+    <QueryClientProvider client={queryClient}>
+      <ObserverProvider>
+        <Listing />
+      </ObserverProvider>
+    </QueryClientProvider>
   )
 }
 

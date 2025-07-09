@@ -33,4 +33,10 @@ interface IAPIResponse<T> {
   data: T;
 }
 
-export type {IListing, IAPIResponse}
+interface ICarouselMedia {
+  type: "video" | "image";
+  src: string;
+}
+
+
+export type {IListing, IAPIResponse, ICarouselMedia}

@@ -3,7 +3,10 @@ import type { IAPIResponse, IListing } from '../types/types';
 
 const sampleData = rawSampleData as IListing[];
 
-const fetchListing = async(page=1, pageSize=20): Promise<IAPIResponse<IListing[]>> => {
+const mockFetchListing = async(page=1, pageSize=20): Promise<IAPIResponse<IListing[]>> => {
+
+  console.log("Fetching Network call");
+
   return new Promise((resolve) => {
     setTimeout(() => {
       const start = (page - 1) * pageSize;
@@ -14,8 +17,8 @@ const fetchListing = async(page=1, pageSize=20): Promise<IAPIResponse<IListing[]
         success: true,
         data: slicedList,
       })
-    }, 500)
+    }, 1500)
 })
 }
 
-export {fetchListing};
+export {mockFetchListing};
