@@ -1,0 +1,5602 @@
+[
+  {
+    "id": 1,
+    "title": "Hotel Listing 1",
+    "description": "Description of hotel listing number 1",
+    "price": 266,
+    "location": {
+      "city": "Sydney",
+      "country": "UK",
+      "address": "Street 32, City Center",
+      "latitude": -1.274732,
+      "longitude": 62.759378
+    },
+    "hotel": {
+      "name": "Hotel 1",
+      "starRating": 4,
+      "amenities": [
+        "wifi",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 113,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 137,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 97,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=9330",
+        "https://picsum.photos/800/600?grayscale?sig=7636",
+        "https://picsum.photos/seed/picsum/800/600?sig=8568",
+        "https://picsum.photos/800/600?sig=8949",
+        "https://picsum.photos/800/600?grayscale?sig=5761"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "Hotel Listing 2",
+    "description": "Description of hotel listing number 2",
+    "price": 75,
+    "location": {
+      "city": "Rome",
+      "country": "Italy",
+      "address": "Street 27, City Center",
+      "latitude": -88.112027,
+      "longitude": -110.798816
+    },
+    "hotel": {
+      "name": "Hotel 2",
+      "starRating": 5,
+      "amenities": [
+        "spa",
+        "pool",
+        "gym",
+        "wifi",
+        "parking",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 130,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 196,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 229,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 132,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=8181"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 3,
+    "title": "Hotel Listing 3",
+    "description": "Description of hotel listing number 3",
+    "price": 506,
+    "location": {
+      "city": "Dubai",
+      "country": "Thailand",
+      "address": "Street 33, City Center",
+      "latitude": -41.084729,
+      "longitude": 21.739438
+    },
+    "hotel": {
+      "name": "Hotel 3",
+      "starRating": 5,
+      "amenities": [
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 210,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=2371",
+        "https://picsum.photos/seed/picsum/800/600?sig=9530"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": "Hotel Listing 4",
+    "description": "Description of hotel listing number 4",
+    "price": 190,
+    "location": {
+      "city": "New York",
+      "country": "France",
+      "address": "Street 73, City Center",
+      "latitude": -84.976979,
+      "longitude": -18.966061
+    },
+    "hotel": {
+      "name": "Hotel 4",
+      "starRating": 4,
+      "amenities": [
+        "spa"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 122,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 60,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 195,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=6046"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 5,
+    "title": "Hotel Listing 5",
+    "description": "Description of hotel listing number 5",
+    "price": 408,
+    "location": {
+      "city": "New York",
+      "country": "UK",
+      "address": "Street 92, City Center",
+      "latitude": -68.245141,
+      "longitude": -99.730248
+    },
+    "hotel": {
+      "name": "Hotel 5",
+      "starRating": 4,
+      "amenities": [
+        "spa",
+        "bar",
+        "gym",
+        "wifi"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 244,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 88,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 146,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 211,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 188,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=8659"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "title": "Hotel Listing 6",
+    "description": "Description of hotel listing number 6",
+    "price": 339,
+    "location": {
+      "city": "Dubai",
+      "country": "Spain",
+      "address": "Street 48, City Center",
+      "latitude": 9.046086,
+      "longitude": -30.481069
+    },
+    "hotel": {
+      "name": "Hotel 6",
+      "starRating": 3,
+      "amenities": [
+        "gym",
+        "spa",
+        "parking",
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 70,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 112,
+        "available": false
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 229,
+        "available": false
+      },
+      {
+        "id": 4,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 51,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=4415",
+        "https://picsum.photos/800/600?random=234?sig=4646",
+        "https://picsum.photos/800/600?sig=657",
+        "https://picsum.photos/800/600?random=234?sig=1255",
+        "https://picsum.photos/800/600?random=234?sig=6851"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 7,
+    "title": "Hotel Listing 7",
+    "description": "Description of hotel listing number 7",
+    "price": 70,
+    "location": {
+      "city": "Paris",
+      "country": "Germany",
+      "address": "Street 14, City Center",
+      "latitude": 20.688915,
+      "longitude": -113.535952
+    },
+    "hotel": {
+      "name": "Hotel 7",
+      "starRating": 3,
+      "amenities": [
+        "spa",
+        "pool",
+        "bar",
+        "wifi",
+        "gym",
+        "restaurant",
+        "parking"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 149,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 139,
+        "available": false
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 192,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=4227",
+        "https://picsum.photos/800/600?random?sig=4244",
+        "https://picsum.photos/seed/picsum/800/600?sig=1256"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "title": "Hotel Listing 8",
+    "description": "Description of hotel listing number 8",
+    "price": 500,
+    "location": {
+      "city": "Paris",
+      "country": "UK",
+      "address": "Street 69, City Center",
+      "latitude": 21.854318,
+      "longitude": -143.21549
+    },
+    "hotel": {
+      "name": "Hotel 8",
+      "starRating": 5,
+      "amenities": [
+        "restaurant",
+        "parking",
+        "pool",
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 222,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 182,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 63,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 220,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?grayscale?sig=6913",
+        "https://picsum.photos/800/600?random?sig=105",
+        "https://picsum.photos/800/600?sig=1961",
+        "https://picsum.photos/seed/picsum/800/600?sig=4601",
+        "https://picsum.photos/800/600?grayscale?sig=7625"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 9,
+    "title": "Hotel Listing 9",
+    "description": "Description of hotel listing number 9",
+    "price": 90,
+    "location": {
+      "city": "Dubai",
+      "country": "France",
+      "address": "Street 29, City Center",
+      "latitude": -31.026954,
+      "longitude": 61.170575
+    },
+    "hotel": {
+      "name": "Hotel 9",
+      "starRating": 5,
+      "amenities": [
+        "wifi",
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 68,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 202,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=7744"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "title": "Hotel Listing 10",
+    "description": "Description of hotel listing number 10",
+    "price": 239,
+    "location": {
+      "city": "New York",
+      "country": "UK",
+      "address": "Street 75, City Center",
+      "latitude": 34.975855,
+      "longitude": 96.118943
+    },
+    "hotel": {
+      "name": "Hotel 10",
+      "starRating": 5,
+      "amenities": [
+        "spa",
+        "pool",
+        "wifi"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 82,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 170,
+        "available": false
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 95,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 92,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?grayscale?sig=3878",
+        "https://picsum.photos/800/600?grayscale?sig=7773"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 11,
+    "title": "Hotel Listing 11",
+    "description": "Description of hotel listing number 11",
+    "price": 148,
+    "location": {
+      "city": "London",
+      "country": "Australia",
+      "address": "Street 20, City Center",
+      "latitude": 70.582637,
+      "longitude": 101.361199
+    },
+    "hotel": {
+      "name": "Hotel 11",
+      "starRating": 3,
+      "amenities": [
+        "spa",
+        "pool",
+        "gym",
+        "wifi",
+        "parking",
+        "bar",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 161,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 155,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 174,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=1538",
+        "https://picsum.photos/800/600?sig=1198"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 12,
+    "title": "Hotel Listing 12",
+    "description": "Description of hotel listing number 12",
+    "price": 516,
+    "location": {
+      "city": "London",
+      "country": "Australia",
+      "address": "Street 91, City Center",
+      "latitude": 30.650607,
+      "longitude": 68.883545
+    },
+    "hotel": {
+      "name": "Hotel 12",
+      "starRating": 3,
+      "amenities": [
+        "wifi",
+        "gym",
+        "parking",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 235,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 183,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=1698",
+        "https://picsum.photos/seed/picsum/800/600?sig=5494",
+        "https://picsum.photos/800/600?grayscale?sig=9881",
+        "https://picsum.photos/800/600?grayscale?sig=4959",
+        "https://picsum.photos/seed/picsum/800/600?sig=4848"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "title": "Hotel Listing 13",
+    "description": "Description of hotel listing number 13",
+    "price": 260,
+    "location": {
+      "city": "Dubai",
+      "country": "Germany",
+      "address": "Street 75, City Center",
+      "latitude": -65.032667,
+      "longitude": -117.937897
+    },
+    "hotel": {
+      "name": "Hotel 13",
+      "starRating": 4,
+      "amenities": [
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 177,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 207,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=5738",
+        "https://picsum.photos/800/600?random=234?sig=8705",
+        "https://picsum.photos/800/600?grayscale?sig=9597",
+        "https://picsum.photos/800/600?sig=3388",
+        "https://picsum.photos/800/600?sig=2164"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 14,
+    "title": "Hotel Listing 14",
+    "description": "Description of hotel listing number 14",
+    "price": 167,
+    "location": {
+      "city": "Barcelona",
+      "country": "Germany",
+      "address": "Street 92, City Center",
+      "latitude": 58.81936,
+      "longitude": 46.859463
+    },
+    "hotel": {
+      "name": "Hotel 14",
+      "starRating": 5,
+      "amenities": [
+        "spa",
+        "parking",
+        "wifi",
+        "restaurant",
+        "pool",
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 114,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 120,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 112,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 173,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=3376",
+        "https://picsum.photos/800/600?sig=2297",
+        "https://picsum.photos/800/600?random=234?sig=1797"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 15,
+    "title": "Hotel Listing 15",
+    "description": "Description of hotel listing number 15",
+    "price": 191,
+    "location": {
+      "city": "Bangkok",
+      "country": "Germany",
+      "address": "Street 49, City Center",
+      "latitude": 30.760029,
+      "longitude": 116.338092
+    },
+    "hotel": {
+      "name": "Hotel 15",
+      "starRating": 4,
+      "amenities": [
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 197,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 176,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 143,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 224,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 89,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=5571",
+        "https://picsum.photos/800/600?random?sig=2602"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 16,
+    "title": "Hotel Listing 16",
+    "description": "Description of hotel listing number 16",
+    "price": 173,
+    "location": {
+      "city": "Bangkok",
+      "country": "UK",
+      "address": "Street 90, City Center",
+      "latitude": 86.505811,
+      "longitude": -70.07834
+    },
+    "hotel": {
+      "name": "Hotel 16",
+      "starRating": 5,
+      "amenities": [
+        "spa",
+        "parking",
+        "gym",
+        "wifi",
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 232,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 82,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 103,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?grayscale?sig=2167",
+        "https://picsum.photos/800/600?random=234?sig=5324",
+        "https://picsum.photos/seed/picsum/800/600?sig=7291",
+        "https://picsum.photos/800/600?random?sig=9296",
+        "https://picsum.photos/seed/picsum/800/600?sig=4096"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 17,
+    "title": "Hotel Listing 17",
+    "description": "Description of hotel listing number 17",
+    "price": 337,
+    "location": {
+      "city": "New York",
+      "country": "Italy",
+      "address": "Street 3, City Center",
+      "latitude": -62.519831,
+      "longitude": 69.410103
+    },
+    "hotel": {
+      "name": "Hotel 17",
+      "starRating": 5,
+      "amenities": [
+        "pool",
+        "spa",
+        "gym",
+        "wifi",
+        "restaurant",
+        "parking"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 118,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 165,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 88,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 61,
+        "available": false
+      },
+      {
+        "id": 5,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 182,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?grayscale?sig=5015",
+        "https://picsum.photos/800/600?random=234?sig=3034",
+        "https://picsum.photos/800/600?sig=7005"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "title": "Hotel Listing 18",
+    "description": "Description of hotel listing number 18",
+    "price": 226,
+    "location": {
+      "city": "Rome",
+      "country": "Thailand",
+      "address": "Street 12, City Center",
+      "latitude": -81.90162,
+      "longitude": -94.674204
+    },
+    "hotel": {
+      "name": "Hotel 18",
+      "starRating": 5,
+      "amenities": [
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 232,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 93,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 148,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 225,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=5984"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 19,
+    "title": "Hotel Listing 19",
+    "description": "Description of hotel listing number 19",
+    "price": 217,
+    "location": {
+      "city": "Tokyo",
+      "country": "Thailand",
+      "address": "Street 97, City Center",
+      "latitude": 40.110537,
+      "longitude": -10.958294
+    },
+    "hotel": {
+      "name": "Hotel 19",
+      "starRating": 3,
+      "amenities": [
+        "spa",
+        "wifi",
+        "gym",
+        "pool",
+        "bar",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 172,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 101,
+        "available": false
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 222,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=7292",
+        "https://picsum.photos/800/600?random=234?sig=2823",
+        "https://picsum.photos/800/600?random?sig=9209",
+        "https://picsum.photos/800/600?random?sig=8050",
+        "https://picsum.photos/800/600?sig=7636"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 20,
+    "title": "Hotel Listing 20",
+    "description": "Description of hotel listing number 20",
+    "price": 462,
+    "location": {
+      "city": "New York",
+      "country": "UAE",
+      "address": "Street 79, City Center",
+      "latitude": -76.499034,
+      "longitude": -9.201666
+    },
+    "hotel": {
+      "name": "Hotel 20",
+      "starRating": 5,
+      "amenities": [
+        "gym",
+        "spa",
+        "restaurant",
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 130,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 95,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 128,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=1138",
+        "https://picsum.photos/800/600?sig=491"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "title": "Hotel Listing 21",
+    "description": "Description of hotel listing number 21",
+    "price": 204,
+    "location": {
+      "city": "Berlin",
+      "country": "Japan",
+      "address": "Street 42, City Center",
+      "latitude": 44.179342,
+      "longitude": 73.573869
+    },
+    "hotel": {
+      "name": "Hotel 21",
+      "starRating": 5,
+      "amenities": [
+        "parking",
+        "pool",
+        "bar",
+        "wifi",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 226,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 209,
+        "available": false
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 162,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 150,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 247,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?grayscale?sig=3076",
+        "https://picsum.photos/800/600?random=234?sig=1129",
+        "https://picsum.photos/800/600?random?sig=7528",
+        "https://picsum.photos/800/600?random?sig=9940"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "title": "Hotel Listing 22",
+    "description": "Description of hotel listing number 22",
+    "price": 543,
+    "location": {
+      "city": "Barcelona",
+      "country": "UK",
+      "address": "Street 34, City Center",
+      "latitude": 12.27825,
+      "longitude": 29.166526
+    },
+    "hotel": {
+      "name": "Hotel 22",
+      "starRating": 4,
+      "amenities": [
+        "parking",
+        "wifi"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 90,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 74,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 156,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 147,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 197,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=6008",
+        "https://picsum.photos/seed/picsum/800/600?sig=2858",
+        "https://picsum.photos/800/600?grayscale?sig=5508"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 23,
+    "title": "Hotel Listing 23",
+    "description": "Description of hotel listing number 23",
+    "price": 148,
+    "location": {
+      "city": "Paris",
+      "country": "USA",
+      "address": "Street 0, City Center",
+      "latitude": 15.857728,
+      "longitude": -13.037301
+    },
+    "hotel": {
+      "name": "Hotel 23",
+      "starRating": 4,
+      "amenities": [
+        "pool",
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 79,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 112,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 205,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=7586",
+        "https://picsum.photos/800/600?random?sig=7968",
+        "https://picsum.photos/800/600?random=234?sig=2139",
+        "https://picsum.photos/800/600?sig=3073",
+        "https://picsum.photos/seed/picsum/800/600?sig=1732"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 24,
+    "title": "Hotel Listing 24",
+    "description": "Description of hotel listing number 24",
+    "price": 456,
+    "location": {
+      "city": "Dubai",
+      "country": "Italy",
+      "address": "Street 61, City Center",
+      "latitude": 49.582758,
+      "longitude": 119.930601
+    },
+    "hotel": {
+      "name": "Hotel 24",
+      "starRating": 5,
+      "amenities": [
+        "parking",
+        "bar",
+        "restaurant",
+        "gym",
+        "spa"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 141,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 150,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 203,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 127,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 205,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=3592",
+        "https://picsum.photos/seed/picsum/800/600?sig=756"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "title": "Hotel Listing 25",
+    "description": "Description of hotel listing number 25",
+    "price": 106,
+    "location": {
+      "city": "Dubai",
+      "country": "France",
+      "address": "Street 98, City Center",
+      "latitude": 36.414364,
+      "longitude": -85.389131
+    },
+    "hotel": {
+      "name": "Hotel 25",
+      "starRating": 3,
+      "amenities": [
+        "wifi"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 143,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=6978",
+        "https://picsum.photos/800/600?sig=4608",
+        "https://picsum.photos/800/600?grayscale?sig=4359",
+        "https://picsum.photos/800/600?random=234?sig=300",
+        "https://picsum.photos/800/600?random?sig=4923"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 26,
+    "title": "Hotel Listing 26",
+    "description": "Description of hotel listing number 26",
+    "price": 54,
+    "location": {
+      "city": "Barcelona",
+      "country": "Japan",
+      "address": "Street 59, City Center",
+      "latitude": -68.159441,
+      "longitude": 134.53949
+    },
+    "hotel": {
+      "name": "Hotel 26",
+      "starRating": 5,
+      "amenities": [
+        "parking",
+        "wifi",
+        "restaurant",
+        "gym",
+        "pool",
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 246,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 128,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 209,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=2207",
+        "https://picsum.photos/seed/picsum/800/600?sig=551",
+        "https://picsum.photos/seed/picsum/800/600?sig=847",
+        "https://picsum.photos/800/600?grayscale?sig=9593",
+        "https://picsum.photos/seed/picsum/800/600?sig=3740"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "title": "Hotel Listing 27",
+    "description": "Description of hotel listing number 27",
+    "price": 67,
+    "location": {
+      "city": "Bangkok",
+      "country": "Japan",
+      "address": "Street 0, City Center",
+      "latitude": -65.499018,
+      "longitude": 58.265628
+    },
+    "hotel": {
+      "name": "Hotel 27",
+      "starRating": 5,
+      "amenities": [
+        "spa",
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 59,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 125,
+        "available": false
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 170,
+        "available": false
+      },
+      {
+        "id": 4,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 206,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 124,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=6490",
+        "https://picsum.photos/800/600?random=234?sig=9211",
+        "https://picsum.photos/800/600?grayscale?sig=235",
+        "https://picsum.photos/800/600?random?sig=9979",
+        "https://picsum.photos/800/600?grayscale?sig=2836"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 28,
+    "title": "Hotel Listing 28",
+    "description": "Description of hotel listing number 28",
+    "price": 513,
+    "location": {
+      "city": "Paris",
+      "country": "Australia",
+      "address": "Street 87, City Center",
+      "latitude": -16.332161,
+      "longitude": -117.669513
+    },
+    "hotel": {
+      "name": "Hotel 28",
+      "starRating": 5,
+      "amenities": [
+        "wifi",
+        "pool",
+        "spa",
+        "gym",
+        "parking",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 184,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 102,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 67,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 130,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 246,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=11",
+        "https://picsum.photos/800/600?random=234?sig=3024",
+        "https://picsum.photos/800/600?random?sig=1802",
+        "https://picsum.photos/seed/picsum/800/600?sig=5223",
+        "https://picsum.photos/seed/picsum/800/600?sig=2501"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "title": "Hotel Listing 29",
+    "description": "Description of hotel listing number 29",
+    "price": 501,
+    "location": {
+      "city": "New York",
+      "country": "UAE",
+      "address": "Street 99, City Center",
+      "latitude": -4.043828,
+      "longitude": 161.96755
+    },
+    "hotel": {
+      "name": "Hotel 29",
+      "starRating": 5,
+      "amenities": [
+        "restaurant",
+        "gym",
+        "pool",
+        "bar",
+        "wifi",
+        "spa",
+        "parking"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 192,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 218,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 76,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=3387",
+        "https://picsum.photos/800/600?grayscale?sig=7548",
+        "https://picsum.photos/seed/picsum/800/600?sig=5938",
+        "https://picsum.photos/800/600?random=234?sig=1605",
+        "https://picsum.photos/800/600?random=234?sig=3898"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 30,
+    "title": "Hotel Listing 30",
+    "description": "Description of hotel listing number 30",
+    "price": 252,
+    "location": {
+      "city": "Rome",
+      "country": "Thailand",
+      "address": "Street 76, City Center",
+      "latitude": 83.468811,
+      "longitude": 83.240813
+    },
+    "hotel": {
+      "name": "Hotel 30",
+      "starRating": 3,
+      "amenities": [
+        "gym"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 60,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 177,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 69,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 70,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 235,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=4912",
+        "https://picsum.photos/800/600?sig=121",
+        "https://picsum.photos/800/600?sig=7003",
+        "https://picsum.photos/800/600?sig=7056",
+        "https://picsum.photos/800/600?grayscale?sig=126"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "title": "Hotel Listing 31",
+    "description": "Description of hotel listing number 31",
+    "price": 469,
+    "location": {
+      "city": "Sydney",
+      "country": "USA",
+      "address": "Street 72, City Center",
+      "latitude": 28.202659,
+      "longitude": 86.396643
+    },
+    "hotel": {
+      "name": "Hotel 31",
+      "starRating": 3,
+      "amenities": [
+        "gym",
+        "restaurant",
+        "parking"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 179,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 69,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 101,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 59,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 232,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=5276",
+        "https://picsum.photos/800/600?random?sig=6011"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 32,
+    "title": "Hotel Listing 32",
+    "description": "Description of hotel listing number 32",
+    "price": 476,
+    "location": {
+      "city": "Sydney",
+      "country": "UK",
+      "address": "Street 15, City Center",
+      "latitude": -88.237445,
+      "longitude": 27.954829
+    },
+    "hotel": {
+      "name": "Hotel 32",
+      "starRating": 5,
+      "amenities": [
+        "gym",
+        "bar",
+        "wifi",
+        "parking",
+        "restaurant",
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 151,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 243,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 125,
+        "available": false
+      },
+      {
+        "id": 4,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 163,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 98,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=3122",
+        "https://picsum.photos/800/600?sig=2248"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 33,
+    "title": "Hotel Listing 33",
+    "description": "Description of hotel listing number 33",
+    "price": 318,
+    "location": {
+      "city": "Rome",
+      "country": "UK",
+      "address": "Street 62, City Center",
+      "latitude": -66.41543,
+      "longitude": 161.785932
+    },
+    "hotel": {
+      "name": "Hotel 33",
+      "starRating": 3,
+      "amenities": [
+        "bar",
+        "restaurant",
+        "parking",
+        "gym"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 215,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 244,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 62,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 70,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 67,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=1701",
+        "https://picsum.photos/800/600?random=234?sig=4663",
+        "https://picsum.photos/800/600?grayscale?sig=8598",
+        "https://picsum.photos/seed/picsum/800/600?sig=6566"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 34,
+    "title": "Hotel Listing 34",
+    "description": "Description of hotel listing number 34",
+    "price": 406,
+    "location": {
+      "city": "Rome",
+      "country": "Thailand",
+      "address": "Street 74, City Center",
+      "latitude": -44.222477,
+      "longitude": -0.613153
+    },
+    "hotel": {
+      "name": "Hotel 34",
+      "starRating": 4,
+      "amenities": [
+        "spa",
+        "bar",
+        "pool",
+        "gym",
+        "parking",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 96,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 56,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=359",
+        "https://picsum.photos/seed/picsum/800/600?sig=9428"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 35,
+    "title": "Hotel Listing 35",
+    "description": "Description of hotel listing number 35",
+    "price": 139,
+    "location": {
+      "city": "New York",
+      "country": "UK",
+      "address": "Street 3, City Center",
+      "latitude": -86.823425,
+      "longitude": -19.730223
+    },
+    "hotel": {
+      "name": "Hotel 35",
+      "starRating": 5,
+      "amenities": [
+        "wifi",
+        "bar",
+        "pool",
+        "parking"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 248,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=7229",
+        "https://picsum.photos/800/600?random=234?sig=7288",
+        "https://picsum.photos/800/600?sig=7012",
+        "https://picsum.photos/800/600?sig=4677",
+        "https://picsum.photos/800/600?grayscale?sig=1935"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 36,
+    "title": "Hotel Listing 36",
+    "description": "Description of hotel listing number 36",
+    "price": 193,
+    "location": {
+      "city": "Rome",
+      "country": "UAE",
+      "address": "Street 32, City Center",
+      "latitude": -75.274112,
+      "longitude": 141.663192
+    },
+    "hotel": {
+      "name": "Hotel 36",
+      "starRating": 4,
+      "amenities": [
+        "spa",
+        "pool",
+        "gym",
+        "wifi",
+        "parking",
+        "bar",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 53,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 68,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=414",
+        "https://picsum.photos/seed/picsum/800/600?sig=3885",
+        "https://picsum.photos/seed/picsum/800/600?sig=1176"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "title": "Hotel Listing 37",
+    "description": "Description of hotel listing number 37",
+    "price": 421,
+    "location": {
+      "city": "Barcelona",
+      "country": "UK",
+      "address": "Street 98, City Center",
+      "latitude": -6.210782,
+      "longitude": -11.999946
+    },
+    "hotel": {
+      "name": "Hotel 37",
+      "starRating": 3,
+      "amenities": [
+        "parking",
+        "spa",
+        "wifi"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 55,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=6517",
+        "https://picsum.photos/seed/picsum/800/600?sig=7300"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "title": "Hotel Listing 38",
+    "description": "Description of hotel listing number 38",
+    "price": 505,
+    "location": {
+      "city": "Sydney",
+      "country": "Japan",
+      "address": "Street 43, City Center",
+      "latitude": 44.504107,
+      "longitude": 131.454336
+    },
+    "hotel": {
+      "name": "Hotel 38",
+      "starRating": 4,
+      "amenities": [
+        "gym",
+        "wifi",
+        "restaurant",
+        "pool",
+        "spa",
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 137,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 151,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 66,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 178,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=9227",
+        "https://picsum.photos/800/600?grayscale?sig=3067",
+        "https://picsum.photos/800/600?grayscale?sig=5635"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 39,
+    "title": "Hotel Listing 39",
+    "description": "Description of hotel listing number 39",
+    "price": 517,
+    "location": {
+      "city": "London",
+      "country": "Italy",
+      "address": "Street 69, City Center",
+      "latitude": -70.90368,
+      "longitude": -52.873294
+    },
+    "hotel": {
+      "name": "Hotel 39",
+      "starRating": 3,
+      "amenities": [
+        "wifi",
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 237,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 243,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=8153"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 40,
+    "title": "Hotel Listing 40",
+    "description": "Description of hotel listing number 40",
+    "price": 118,
+    "location": {
+      "city": "Barcelona",
+      "country": "France",
+      "address": "Street 68, City Center",
+      "latitude": 4.482361,
+      "longitude": -133.267375
+    },
+    "hotel": {
+      "name": "Hotel 40",
+      "starRating": 4,
+      "amenities": [
+        "gym",
+        "spa",
+        "pool",
+        "parking",
+        "wifi"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 131,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 196,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 123,
+        "available": false
+      },
+      {
+        "id": 4,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 56,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 240,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?grayscale?sig=2777",
+        "https://picsum.photos/800/600?random=234?sig=3110"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 41,
+    "title": "Hotel Listing 41",
+    "description": "Description of hotel listing number 41",
+    "price": 232,
+    "location": {
+      "city": "New York",
+      "country": "Thailand",
+      "address": "Street 42, City Center",
+      "latitude": -59.455498,
+      "longitude": -124.758837
+    },
+    "hotel": {
+      "name": "Hotel 41",
+      "starRating": 3,
+      "amenities": [
+        "spa",
+        "parking",
+        "pool",
+        "gym"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 57,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 139,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 212,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=4108",
+        "https://picsum.photos/800/600?random?sig=8583",
+        "https://picsum.photos/800/600?grayscale?sig=9945",
+        "https://picsum.photos/800/600?sig=2888"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "title": "Hotel Listing 42",
+    "description": "Description of hotel listing number 42",
+    "price": 542,
+    "location": {
+      "city": "Berlin",
+      "country": "Italy",
+      "address": "Street 68, City Center",
+      "latitude": -28.600881,
+      "longitude": -170.738096
+    },
+    "hotel": {
+      "name": "Hotel 42",
+      "starRating": 5,
+      "amenities": [
+        "wifi"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 189,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 238,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 241,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 122,
+        "available": false
+      },
+      {
+        "id": 5,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 98,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=5143",
+        "https://picsum.photos/800/600?random=234?sig=3676",
+        "https://picsum.photos/800/600?random=234?sig=865",
+        "https://picsum.photos/seed/picsum/800/600?sig=64"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "title": "Hotel Listing 43",
+    "description": "Description of hotel listing number 43",
+    "price": 317,
+    "location": {
+      "city": "Paris",
+      "country": "UAE",
+      "address": "Street 21, City Center",
+      "latitude": -81.174538,
+      "longitude": -153.249615
+    },
+    "hotel": {
+      "name": "Hotel 43",
+      "starRating": 4,
+      "amenities": [
+        "bar",
+        "spa",
+        "parking",
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 162,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=438",
+        "https://picsum.photos/800/600?random?sig=5101",
+        "https://picsum.photos/800/600?random?sig=8274"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "title": "Hotel Listing 44",
+    "description": "Description of hotel listing number 44",
+    "price": 163,
+    "location": {
+      "city": "Berlin",
+      "country": "Italy",
+      "address": "Street 90, City Center",
+      "latitude": -19.891366,
+      "longitude": -92.637117
+    },
+    "hotel": {
+      "name": "Hotel 44",
+      "starRating": 4,
+      "amenities": [
+        "bar",
+        "restaurant",
+        "wifi",
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 168,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 76,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 171,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 128,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 226,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=8180",
+        "https://picsum.photos/800/600?random?sig=4530",
+        "https://picsum.photos/800/600?random=234?sig=1808",
+        "https://picsum.photos/800/600?sig=2278"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "title": "Hotel Listing 45",
+    "description": "Description of hotel listing number 45",
+    "price": 408,
+    "location": {
+      "city": "London",
+      "country": "France",
+      "address": "Street 87, City Center",
+      "latitude": 14.587532,
+      "longitude": 153.172445
+    },
+    "hotel": {
+      "name": "Hotel 45",
+      "starRating": 5,
+      "amenities": [
+        "gym"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 121,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 215,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 121,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?grayscale?sig=2659"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "title": "Hotel Listing 46",
+    "description": "Description of hotel listing number 46",
+    "price": 136,
+    "location": {
+      "city": "Bangkok",
+      "country": "Germany",
+      "address": "Street 11, City Center",
+      "latitude": -64.968343,
+      "longitude": 158.677203
+    },
+    "hotel": {
+      "name": "Hotel 46",
+      "starRating": 5,
+      "amenities": [
+        "wifi",
+        "spa",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 53,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 115,
+        "available": false
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 192,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=7346",
+        "https://picsum.photos/800/600?sig=8475",
+        "https://picsum.photos/seed/picsum/800/600?sig=686",
+        "https://picsum.photos/800/600?sig=4305"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "title": "Hotel Listing 47",
+    "description": "Description of hotel listing number 47",
+    "price": 139,
+    "location": {
+      "city": "London",
+      "country": "Thailand",
+      "address": "Street 27, City Center",
+      "latitude": -64.840191,
+      "longitude": 157.579942
+    },
+    "hotel": {
+      "name": "Hotel 47",
+      "starRating": 4,
+      "amenities": [
+        "gym",
+        "wifi",
+        "bar",
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 223,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=3243",
+        "https://picsum.photos/seed/picsum/800/600?sig=744"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 48,
+    "title": "Hotel Listing 48",
+    "description": "Description of hotel listing number 48",
+    "price": 253,
+    "location": {
+      "city": "Rome",
+      "country": "USA",
+      "address": "Street 52, City Center",
+      "latitude": -55.149416,
+      "longitude": 115.212396
+    },
+    "hotel": {
+      "name": "Hotel 48",
+      "starRating": 4,
+      "amenities": [
+        "gym",
+        "wifi",
+        "spa",
+        "bar",
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 76,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?grayscale?sig=1147"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "title": "Hotel Listing 49",
+    "description": "Description of hotel listing number 49",
+    "price": 425,
+    "location": {
+      "city": "Bangkok",
+      "country": "Spain",
+      "address": "Street 13, City Center",
+      "latitude": 68.73562,
+      "longitude": 11.342924
+    },
+    "hotel": {
+      "name": "Hotel 49",
+      "starRating": 4,
+      "amenities": [
+        "wifi"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 229,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 243,
+        "available": false
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 165,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 215,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=8508",
+        "https://picsum.photos/seed/picsum/800/600?sig=6670",
+        "https://picsum.photos/800/600?sig=5598",
+        "https://picsum.photos/800/600?random=234?sig=6671"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "title": "Hotel Listing 50",
+    "description": "Description of hotel listing number 50",
+    "price": 450,
+    "location": {
+      "city": "New York",
+      "country": "UK",
+      "address": "Street 29, City Center",
+      "latitude": 80.169009,
+      "longitude": -73.69818
+    },
+    "hotel": {
+      "name": "Hotel 50",
+      "starRating": 4,
+      "amenities": [
+        "restaurant",
+        "wifi",
+        "pool",
+        "parking",
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 58,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=3321",
+        "https://picsum.photos/800/600?random=234?sig=8187",
+        "https://picsum.photos/800/600?grayscale?sig=1968",
+        "https://picsum.photos/800/600?sig=167",
+        "https://picsum.photos/800/600?grayscale?sig=5022"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 51,
+    "title": "Hotel Listing 51",
+    "description": "Description of hotel listing number 51",
+    "price": 191,
+    "location": {
+      "city": "Dubai",
+      "country": "Australia",
+      "address": "Street 54, City Center",
+      "latitude": 51.74427,
+      "longitude": -139.470003
+    },
+    "hotel": {
+      "name": "Hotel 51",
+      "starRating": 3,
+      "amenities": [
+        "pool",
+        "parking"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 238,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 109,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 246,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=8841",
+        "https://picsum.photos/800/600?random?sig=9080",
+        "https://picsum.photos/800/600?random=234?sig=5911",
+        "https://picsum.photos/seed/picsum/800/600?sig=4875",
+        "https://picsum.photos/800/600?random=234?sig=1083"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "title": "Hotel Listing 52",
+    "description": "Description of hotel listing number 52",
+    "price": 253,
+    "location": {
+      "city": "Berlin",
+      "country": "Japan",
+      "address": "Street 35, City Center",
+      "latitude": -71.196544,
+      "longitude": 68.990178
+    },
+    "hotel": {
+      "name": "Hotel 52",
+      "starRating": 5,
+      "amenities": [
+        "restaurant",
+        "gym",
+        "spa",
+        "bar",
+        "pool",
+        "wifi"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 142,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 236,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 209,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=6140",
+        "https://picsum.photos/800/600?random=234?sig=2386"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 53,
+    "title": "Hotel Listing 53",
+    "description": "Description of hotel listing number 53",
+    "price": 135,
+    "location": {
+      "city": "Tokyo",
+      "country": "Germany",
+      "address": "Street 56, City Center",
+      "latitude": 2.782352,
+      "longitude": 81.921775
+    },
+    "hotel": {
+      "name": "Hotel 53",
+      "starRating": 4,
+      "amenities": [
+        "bar",
+        "spa",
+        "pool",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 229,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 195,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 170,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 109,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=9268",
+        "https://picsum.photos/800/600?random?sig=431",
+        "https://picsum.photos/800/600?grayscale?sig=4554",
+        "https://picsum.photos/800/600?grayscale?sig=7701"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "title": "Hotel Listing 54",
+    "description": "Description of hotel listing number 54",
+    "price": 298,
+    "location": {
+      "city": "Barcelona",
+      "country": "Japan",
+      "address": "Street 41, City Center",
+      "latitude": -25.575219,
+      "longitude": -170.468064
+    },
+    "hotel": {
+      "name": "Hotel 54",
+      "starRating": 4,
+      "amenities": [
+        "bar",
+        "wifi",
+        "restaurant",
+        "gym"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 56,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 91,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 238,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=7038"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "title": "Hotel Listing 55",
+    "description": "Description of hotel listing number 55",
+    "price": 341,
+    "location": {
+      "city": "Dubai",
+      "country": "Australia",
+      "address": "Street 0, City Center",
+      "latitude": 40.972106,
+      "longitude": 6.289655
+    },
+    "hotel": {
+      "name": "Hotel 55",
+      "starRating": 4,
+      "amenities": [
+        "spa",
+        "restaurant",
+        "gym",
+        "pool",
+        "wifi",
+        "bar",
+        "parking"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 167,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 205,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=2605",
+        "https://picsum.photos/800/600?sig=6699",
+        "https://picsum.photos/800/600?random?sig=7626"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 56,
+    "title": "Hotel Listing 56",
+    "description": "Description of hotel listing number 56",
+    "price": 115,
+    "location": {
+      "city": "Bangkok",
+      "country": "France",
+      "address": "Street 40, City Center",
+      "latitude": 55.229637,
+      "longitude": 140.68741
+    },
+    "hotel": {
+      "name": "Hotel 56",
+      "starRating": 5,
+      "amenities": [
+        "bar",
+        "parking"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 223,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 234,
+        "available": false
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 107,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?grayscale?sig=9879",
+        "https://picsum.photos/800/600?random=234?sig=6175"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "title": "Hotel Listing 57",
+    "description": "Description of hotel listing number 57",
+    "price": 293,
+    "location": {
+      "city": "Dubai",
+      "country": "Australia",
+      "address": "Street 80, City Center",
+      "latitude": 16.480518,
+      "longitude": -68.338047
+    },
+    "hotel": {
+      "name": "Hotel 57",
+      "starRating": 4,
+      "amenities": [
+        "parking",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 53,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 107,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 201,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 225,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 227,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=3260",
+        "https://picsum.photos/800/600?random?sig=4922",
+        "https://picsum.photos/800/600?random=234?sig=9471",
+        "https://picsum.photos/800/600?random=234?sig=6646"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 58,
+    "title": "Hotel Listing 58",
+    "description": "Description of hotel listing number 58",
+    "price": 54,
+    "location": {
+      "city": "Rome",
+      "country": "Italy",
+      "address": "Street 38, City Center",
+      "latitude": -75.183842,
+      "longitude": -98.544861
+    },
+    "hotel": {
+      "name": "Hotel 58",
+      "starRating": 5,
+      "amenities": [
+        "parking",
+        "wifi",
+        "pool",
+        "spa",
+        "restaurant",
+        "gym"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 66,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=5360",
+        "https://picsum.photos/800/600?grayscale?sig=2942",
+        "https://picsum.photos/800/600?grayscale?sig=6482"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "title": "Hotel Listing 59",
+    "description": "Description of hotel listing number 59",
+    "price": 204,
+    "location": {
+      "city": "Tokyo",
+      "country": "France",
+      "address": "Street 52, City Center",
+      "latitude": -54.154365,
+      "longitude": 172.926835
+    },
+    "hotel": {
+      "name": "Hotel 59",
+      "starRating": 4,
+      "amenities": [
+        "parking",
+        "wifi",
+        "pool",
+        "spa"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 224,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 53,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=9035"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "title": "Hotel Listing 60",
+    "description": "Description of hotel listing number 60",
+    "price": 487,
+    "location": {
+      "city": "Bangkok",
+      "country": "Italy",
+      "address": "Street 66, City Center",
+      "latitude": -54.136357,
+      "longitude": -65.121426
+    },
+    "hotel": {
+      "name": "Hotel 60",
+      "starRating": 4,
+      "amenities": [
+        "restaurant",
+        "wifi",
+        "parking",
+        "pool",
+        "bar",
+        "spa"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 152,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=5520",
+        "https://picsum.photos/800/600?grayscale?sig=4225"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 61,
+    "title": "Hotel Listing 61",
+    "description": "Description of hotel listing number 61",
+    "price": 273,
+    "location": {
+      "city": "Bangkok",
+      "country": "USA",
+      "address": "Street 32, City Center",
+      "latitude": -44.994735,
+      "longitude": 178.190857
+    },
+    "hotel": {
+      "name": "Hotel 61",
+      "starRating": 4,
+      "amenities": [
+        "parking"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 153,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=3626",
+        "https://picsum.photos/seed/picsum/800/600?sig=1312"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "title": "Hotel Listing 62",
+    "description": "Description of hotel listing number 62",
+    "price": 523,
+    "location": {
+      "city": "Rome",
+      "country": "UAE",
+      "address": "Street 83, City Center",
+      "latitude": 40.982738,
+      "longitude": 1.117341
+    },
+    "hotel": {
+      "name": "Hotel 62",
+      "starRating": 3,
+      "amenities": [
+        "gym"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 202,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 197,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 61,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 82,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 239,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=9897",
+        "https://picsum.photos/800/600?random=234?sig=7495",
+        "https://picsum.photos/800/600?random?sig=9256",
+        "https://picsum.photos/800/600?random?sig=2979"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "title": "Hotel Listing 63",
+    "description": "Description of hotel listing number 63",
+    "price": 220,
+    "location": {
+      "city": "Bangkok",
+      "country": "Italy",
+      "address": "Street 11, City Center",
+      "latitude": -15.54096,
+      "longitude": -125.621696
+    },
+    "hotel": {
+      "name": "Hotel 63",
+      "starRating": 3,
+      "amenities": [
+        "gym",
+        "bar",
+        "wifi",
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 120,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 57,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=3741",
+        "https://picsum.photos/seed/picsum/800/600?sig=5929",
+        "https://picsum.photos/seed/picsum/800/600?sig=7313",
+        "https://picsum.photos/800/600?random?sig=7472"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 64,
+    "title": "Hotel Listing 64",
+    "description": "Description of hotel listing number 64",
+    "price": 188,
+    "location": {
+      "city": "Rome",
+      "country": "France",
+      "address": "Street 37, City Center",
+      "latitude": 1.920994,
+      "longitude": 14.475618
+    },
+    "hotel": {
+      "name": "Hotel 64",
+      "starRating": 3,
+      "amenities": [
+        "parking",
+        "gym",
+        "spa",
+        "bar",
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 79,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 185,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=9239",
+        "https://picsum.photos/800/600?random=234?sig=4971",
+        "https://picsum.photos/800/600?random=234?sig=6768",
+        "https://picsum.photos/800/600?grayscale?sig=1662",
+        "https://picsum.photos/800/600?random=234?sig=2484"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "title": "Hotel Listing 65",
+    "description": "Description of hotel listing number 65",
+    "price": 200,
+    "location": {
+      "city": "Tokyo",
+      "country": "UAE",
+      "address": "Street 37, City Center",
+      "latitude": -60.850584,
+      "longitude": 21.404061
+    },
+    "hotel": {
+      "name": "Hotel 65",
+      "starRating": 3,
+      "amenities": [
+        "gym"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 52,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 217,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 129,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 127,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 170,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=9136",
+        "https://picsum.photos/800/600?grayscale?sig=6211",
+        "https://picsum.photos/800/600?grayscale?sig=5634",
+        "https://picsum.photos/800/600?grayscale?sig=3306"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 66,
+    "title": "Hotel Listing 66",
+    "description": "Description of hotel listing number 66",
+    "price": 391,
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "address": "Street 11, City Center",
+      "latitude": 79.027637,
+      "longitude": 133.287558
+    },
+    "hotel": {
+      "name": "Hotel 66",
+      "starRating": 3,
+      "amenities": [
+        "parking",
+        "gym",
+        "spa",
+        "pool",
+        "restaurant",
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 148,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 232,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 133,
+        "available": false
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 110,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=5078",
+        "https://picsum.photos/800/600?grayscale?sig=9409",
+        "https://picsum.photos/seed/picsum/800/600?sig=7677",
+        "https://picsum.photos/800/600?grayscale?sig=750"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 67,
+    "title": "Hotel Listing 67",
+    "description": "Description of hotel listing number 67",
+    "price": 262,
+    "location": {
+      "city": "Dubai",
+      "country": "UAE",
+      "address": "Street 40, City Center",
+      "latitude": 42.243198,
+      "longitude": 172.897087
+    },
+    "hotel": {
+      "name": "Hotel 67",
+      "starRating": 4,
+      "amenities": [
+        "gym",
+        "wifi",
+        "restaurant",
+        "pool",
+        "spa",
+        "bar",
+        "parking"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 196,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 233,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 111,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=3754",
+        "https://picsum.photos/800/600?grayscale?sig=7488",
+        "https://picsum.photos/seed/picsum/800/600?sig=8162",
+        "https://picsum.photos/800/600?random=234?sig=9352",
+        "https://picsum.photos/800/600?random?sig=3489"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 68,
+    "title": "Hotel Listing 68",
+    "description": "Description of hotel listing number 68",
+    "price": 87,
+    "location": {
+      "city": "Bangkok",
+      "country": "UAE",
+      "address": "Street 26, City Center",
+      "latitude": 73.339486,
+      "longitude": 14.817774
+    },
+    "hotel": {
+      "name": "Hotel 68",
+      "starRating": 4,
+      "amenities": [
+        "pool",
+        "wifi",
+        "parking",
+        "spa",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 70,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=820",
+        "https://picsum.photos/800/600?random=234?sig=9651",
+        "https://picsum.photos/800/600?sig=6318",
+        "https://picsum.photos/800/600?grayscale?sig=1588",
+        "https://picsum.photos/800/600?random?sig=5648"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 69,
+    "title": "Hotel Listing 69",
+    "description": "Description of hotel listing number 69",
+    "price": 190,
+    "location": {
+      "city": "Sydney",
+      "country": "Japan",
+      "address": "Street 42, City Center",
+      "latitude": -77.921323,
+      "longitude": -21.835368
+    },
+    "hotel": {
+      "name": "Hotel 69",
+      "starRating": 5,
+      "amenities": [
+        "wifi",
+        "bar",
+        "pool",
+        "restaurant",
+        "gym",
+        "parking"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 220,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=6861"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 70,
+    "title": "Hotel Listing 70",
+    "description": "Description of hotel listing number 70",
+    "price": 192,
+    "location": {
+      "city": "Paris",
+      "country": "Australia",
+      "address": "Street 74, City Center",
+      "latitude": 79.757478,
+      "longitude": 82.402137
+    },
+    "hotel": {
+      "name": "Hotel 70",
+      "starRating": 4,
+      "amenities": [
+        "spa",
+        "restaurant",
+        "pool",
+        "bar",
+        "parking",
+        "wifi",
+        "gym"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 57,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 91,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 50,
+        "available": false
+      },
+      {
+        "id": 4,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 129,
+        "available": false
+      },
+      {
+        "id": 5,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 165,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=3845",
+        "https://picsum.photos/800/600?random=234?sig=9397",
+        "https://picsum.photos/800/600?grayscale?sig=8953",
+        "https://picsum.photos/800/600?random=234?sig=3778",
+        "https://picsum.photos/800/600?grayscale?sig=1849"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 71,
+    "title": "Hotel Listing 71",
+    "description": "Description of hotel listing number 71",
+    "price": 188,
+    "location": {
+      "city": "Barcelona",
+      "country": "France",
+      "address": "Street 65, City Center",
+      "latitude": -58.542892,
+      "longitude": 130.043722
+    },
+    "hotel": {
+      "name": "Hotel 71",
+      "starRating": 4,
+      "amenities": [
+        "wifi",
+        "restaurant",
+        "pool",
+        "gym",
+        "spa"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 68,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 170,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=2596",
+        "https://picsum.photos/800/600?random?sig=9885"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "title": "Hotel Listing 72",
+    "description": "Description of hotel listing number 72",
+    "price": 385,
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "address": "Street 52, City Center",
+      "latitude": -86.228541,
+      "longitude": -159.211784
+    },
+    "hotel": {
+      "name": "Hotel 72",
+      "starRating": 3,
+      "amenities": [
+        "wifi",
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 50,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=4463",
+        "https://picsum.photos/800/600?random?sig=7592"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 73,
+    "title": "Hotel Listing 73",
+    "description": "Description of hotel listing number 73",
+    "price": 105,
+    "location": {
+      "city": "London",
+      "country": "Germany",
+      "address": "Street 98, City Center",
+      "latitude": -77.585619,
+      "longitude": -141.540601
+    },
+    "hotel": {
+      "name": "Hotel 73",
+      "starRating": 5,
+      "amenities": [
+        "pool",
+        "bar",
+        "wifi",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 203,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 232,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=8858",
+        "https://picsum.photos/800/600?sig=3355",
+        "https://picsum.photos/seed/picsum/800/600?sig=5407",
+        "https://picsum.photos/800/600?sig=1021"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 74,
+    "title": "Hotel Listing 74",
+    "description": "Description of hotel listing number 74",
+    "price": 390,
+    "location": {
+      "city": "Barcelona",
+      "country": "Japan",
+      "address": "Street 55, City Center",
+      "latitude": -64.844038,
+      "longitude": -25.253716
+    },
+    "hotel": {
+      "name": "Hotel 74",
+      "starRating": 3,
+      "amenities": [
+        "pool",
+        "gym",
+        "restaurant",
+        "wifi",
+        "spa"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 114,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 108,
+        "available": false
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 126,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 123,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=7549",
+        "https://picsum.photos/800/600?random?sig=8837",
+        "https://picsum.photos/800/600?sig=2326"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 75,
+    "title": "Hotel Listing 75",
+    "description": "Description of hotel listing number 75",
+    "price": 197,
+    "location": {
+      "city": "Rome",
+      "country": "Australia",
+      "address": "Street 51, City Center",
+      "latitude": 43.488752,
+      "longitude": 117.175537
+    },
+    "hotel": {
+      "name": "Hotel 75",
+      "starRating": 5,
+      "amenities": [
+        "wifi",
+        "gym",
+        "bar",
+        "pool",
+        "spa",
+        "parking",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 116,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=5733",
+        "https://picsum.photos/800/600?random?sig=3264",
+        "https://picsum.photos/800/600?grayscale?sig=1433",
+        "https://picsum.photos/800/600?grayscale?sig=2573",
+        "https://picsum.photos/800/600?random=234?sig=7106"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 76,
+    "title": "Hotel Listing 76",
+    "description": "Description of hotel listing number 76",
+    "price": 186,
+    "location": {
+      "city": "New York",
+      "country": "Japan",
+      "address": "Street 17, City Center",
+      "latitude": -55.418594,
+      "longitude": -178.089833
+    },
+    "hotel": {
+      "name": "Hotel 76",
+      "starRating": 5,
+      "amenities": [
+        "gym",
+        "spa",
+        "restaurant",
+        "pool",
+        "wifi"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 186,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 193,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=7514",
+        "https://picsum.photos/seed/picsum/800/600?sig=6355",
+        "https://picsum.photos/800/600?random=234?sig=2095",
+        "https://picsum.photos/seed/picsum/800/600?sig=9720"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 77,
+    "title": "Hotel Listing 77",
+    "description": "Description of hotel listing number 77",
+    "price": 539,
+    "location": {
+      "city": "Rome",
+      "country": "UK",
+      "address": "Street 32, City Center",
+      "latitude": 11.216868,
+      "longitude": -141.730252
+    },
+    "hotel": {
+      "name": "Hotel 77",
+      "starRating": 3,
+      "amenities": [
+        "pool",
+        "spa",
+        "gym",
+        "wifi",
+        "parking",
+        "restaurant",
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 125,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 86,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 176,
+        "available": false
+      },
+      {
+        "id": 4,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 92,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 204,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?grayscale?sig=1882",
+        "https://picsum.photos/800/600?random=234?sig=4743",
+        "https://picsum.photos/800/600?sig=486"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 78,
+    "title": "Hotel Listing 78",
+    "description": "Description of hotel listing number 78",
+    "price": 531,
+    "location": {
+      "city": "Berlin",
+      "country": "France",
+      "address": "Street 92, City Center",
+      "latitude": -0.011703,
+      "longitude": 132.6098
+    },
+    "hotel": {
+      "name": "Hotel 78",
+      "starRating": 5,
+      "amenities": [
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 166,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 64,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=5196",
+        "https://picsum.photos/800/600?random=234?sig=7747",
+        "https://picsum.photos/800/600?random?sig=1393",
+        "https://picsum.photos/800/600?random=234?sig=3701"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 79,
+    "title": "Hotel Listing 79",
+    "description": "Description of hotel listing number 79",
+    "price": 172,
+    "location": {
+      "city": "Bangkok",
+      "country": "Spain",
+      "address": "Street 69, City Center",
+      "latitude": -39.198679,
+      "longitude": -85.961549
+    },
+    "hotel": {
+      "name": "Hotel 79",
+      "starRating": 3,
+      "amenities": [
+        "restaurant",
+        "gym",
+        "bar",
+        "spa",
+        "pool",
+        "parking"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 240,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 234,
+        "available": false
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 155,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 184,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=9855",
+        "https://picsum.photos/800/600?sig=7186",
+        "https://picsum.photos/800/600?grayscale?sig=4044",
+        "https://picsum.photos/seed/picsum/800/600?sig=5259",
+        "https://picsum.photos/800/600?grayscale?sig=882"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 80,
+    "title": "Hotel Listing 80",
+    "description": "Description of hotel listing number 80",
+    "price": 63,
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "address": "Street 3, City Center",
+      "latitude": 85.167086,
+      "longitude": 93.457097
+    },
+    "hotel": {
+      "name": "Hotel 80",
+      "starRating": 3,
+      "amenities": [
+        "restaurant",
+        "bar",
+        "spa",
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 155,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 119,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=1399"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 81,
+    "title": "Hotel Listing 81",
+    "description": "Description of hotel listing number 81",
+    "price": 109,
+    "location": {
+      "city": "Tokyo",
+      "country": "Australia",
+      "address": "Street 89, City Center",
+      "latitude": -32.897998,
+      "longitude": -96.17043
+    },
+    "hotel": {
+      "name": "Hotel 81",
+      "starRating": 4,
+      "amenities": [
+        "parking",
+        "restaurant",
+        "gym",
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 93,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 245,
+        "available": false
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 116,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 194,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 164,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=3240",
+        "https://picsum.photos/800/600?grayscale?sig=5838",
+        "https://picsum.photos/seed/picsum/800/600?sig=6512",
+        "https://picsum.photos/seed/picsum/800/600?sig=6743"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 82,
+    "title": "Hotel Listing 82",
+    "description": "Description of hotel listing number 82",
+    "price": 468,
+    "location": {
+      "city": "Sydney",
+      "country": "Spain",
+      "address": "Street 58, City Center",
+      "latitude": -75.145275,
+      "longitude": -97.153141
+    },
+    "hotel": {
+      "name": "Hotel 82",
+      "starRating": 4,
+      "amenities": [
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 74,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 122,
+        "available": false
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 189,
+        "available": false
+      },
+      {
+        "id": 4,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 165,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?grayscale?sig=2529",
+        "https://picsum.photos/800/600?grayscale?sig=4397",
+        "https://picsum.photos/800/600?sig=1477",
+        "https://picsum.photos/800/600?grayscale?sig=4778",
+        "https://picsum.photos/800/600?random=234?sig=5166"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 83,
+    "title": "Hotel Listing 83",
+    "description": "Description of hotel listing number 83",
+    "price": 422,
+    "location": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "address": "Street 37, City Center",
+      "latitude": 41.800386,
+      "longitude": -71.617788
+    },
+    "hotel": {
+      "name": "Hotel 83",
+      "starRating": 3,
+      "amenities": [
+        "pool",
+        "gym"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 90,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 155,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 57,
+        "available": false
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 180,
+        "available": false
+      },
+      {
+        "id": 5,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 222,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=187",
+        "https://picsum.photos/800/600?random?sig=3576",
+        "https://picsum.photos/800/600?sig=1562"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 84,
+    "title": "Hotel Listing 84",
+    "description": "Description of hotel listing number 84",
+    "price": 65,
+    "location": {
+      "city": "Bangkok",
+      "country": "UAE",
+      "address": "Street 27, City Center",
+      "latitude": 77.094859,
+      "longitude": 48.084971
+    },
+    "hotel": {
+      "name": "Hotel 84",
+      "starRating": 5,
+      "amenities": [
+        "spa",
+        "pool",
+        "parking",
+        "wifi",
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 123,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 119,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=4498",
+        "https://picsum.photos/800/600?sig=8019",
+        "https://picsum.photos/seed/picsum/800/600?sig=8604",
+        "https://picsum.photos/800/600?grayscale?sig=648"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 85,
+    "title": "Hotel Listing 85",
+    "description": "Description of hotel listing number 85",
+    "price": 542,
+    "location": {
+      "city": "Tokyo",
+      "country": "UK",
+      "address": "Street 28, City Center",
+      "latitude": -4.112359,
+      "longitude": 119.701791
+    },
+    "hotel": {
+      "name": "Hotel 85",
+      "starRating": 4,
+      "amenities": [
+        "wifi"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 86,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 245,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 208,
+        "available": false
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 75,
+        "available": false
+      },
+      {
+        "id": 5,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 121,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=4149",
+        "https://picsum.photos/800/600?random?sig=2628",
+        "https://picsum.photos/seed/picsum/800/600?sig=3722",
+        "https://picsum.photos/800/600?sig=5013",
+        "https://picsum.photos/800/600?sig=4870"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 86,
+    "title": "Hotel Listing 86",
+    "description": "Description of hotel listing number 86",
+    "price": 232,
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "address": "Street 82, City Center",
+      "latitude": 57.470922,
+      "longitude": -35.652034
+    },
+    "hotel": {
+      "name": "Hotel 86",
+      "starRating": 4,
+      "amenities": [
+        "wifi",
+        "pool",
+        "spa",
+        "bar",
+        "restaurant",
+        "gym",
+        "parking"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 149,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 217,
+        "available": false
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?grayscale?sig=2249",
+        "https://picsum.photos/800/600?grayscale?sig=6075",
+        "https://picsum.photos/800/600?random?sig=2966",
+        "https://picsum.photos/800/600?random=234?sig=6654"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 87,
+    "title": "Hotel Listing 87",
+    "description": "Description of hotel listing number 87",
+    "price": 183,
+    "location": {
+      "city": "Bangkok",
+      "country": "UK",
+      "address": "Street 60, City Center",
+      "latitude": -1.328209,
+      "longitude": -90.630347
+    },
+    "hotel": {
+      "name": "Hotel 87",
+      "starRating": 3,
+      "amenities": [
+        "gym"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 173,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 100,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 239,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 240,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 203,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=4156",
+        "https://picsum.photos/800/600?grayscale?sig=3099",
+        "https://picsum.photos/800/600?random=234?sig=9109",
+        "https://picsum.photos/800/600?sig=504"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 88,
+    "title": "Hotel Listing 88",
+    "description": "Description of hotel listing number 88",
+    "price": 452,
+    "location": {
+      "city": "Sydney",
+      "country": "UK",
+      "address": "Street 75, City Center",
+      "latitude": 52.041938,
+      "longitude": -104.839987
+    },
+    "hotel": {
+      "name": "Hotel 88",
+      "starRating": 4,
+      "amenities": [
+        "gym",
+        "spa",
+        "bar",
+        "pool",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 68,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 218,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=8651",
+        "https://picsum.photos/seed/picsum/800/600?sig=1613"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 89,
+    "title": "Hotel Listing 89",
+    "description": "Description of hotel listing number 89",
+    "price": 241,
+    "location": {
+      "city": "London",
+      "country": "Japan",
+      "address": "Street 1, City Center",
+      "latitude": -81.512389,
+      "longitude": 5.014939
+    },
+    "hotel": {
+      "name": "Hotel 89",
+      "starRating": 5,
+      "amenities": [
+        "wifi",
+        "parking"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 173,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 138,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 4,
+        "pricePerNight": 144,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 232,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=9158",
+        "https://picsum.photos/800/600?grayscale?sig=5454",
+        "https://picsum.photos/seed/picsum/800/600?sig=1790",
+        "https://picsum.photos/800/600?sig=1607",
+        "https://picsum.photos/800/600?grayscale?sig=8470"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 90,
+    "title": "Hotel Listing 90",
+    "description": "Description of hotel listing number 90",
+    "price": 506,
+    "location": {
+      "city": "Bangkok",
+      "country": "Germany",
+      "address": "Street 2, City Center",
+      "latitude": 43.803356,
+      "longitude": 124.479706
+    },
+    "hotel": {
+      "name": "Hotel 90",
+      "starRating": 4,
+      "amenities": [
+        "parking",
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 211,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 82,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 95,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 123,
+        "available": false
+      },
+      {
+        "id": 5,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 148,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=2409"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 91,
+    "title": "Hotel Listing 91",
+    "description": "Description of hotel listing number 91",
+    "price": 69,
+    "location": {
+      "city": "Rome",
+      "country": "UK",
+      "address": "Street 73, City Center",
+      "latitude": -24.93212,
+      "longitude": -80.836131
+    },
+    "hotel": {
+      "name": "Hotel 91",
+      "starRating": 3,
+      "amenities": [
+        "wifi",
+        "pool",
+        "parking",
+        "spa",
+        "bar",
+        "restaurant",
+        "gym"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 234,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=9309",
+        "https://picsum.photos/800/600?sig=2267"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 92,
+    "title": "Hotel Listing 92",
+    "description": "Description of hotel listing number 92",
+    "price": 150,
+    "location": {
+      "city": "Sydney",
+      "country": "UAE",
+      "address": "Street 32, City Center",
+      "latitude": 37.325396,
+      "longitude": 161.767806
+    },
+    "hotel": {
+      "name": "Hotel 92",
+      "starRating": 5,
+      "amenities": [
+        "gym",
+        "pool",
+        "restaurant",
+        "wifi",
+        "spa",
+        "bar",
+        "parking"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 55,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 94,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=2444",
+        "https://picsum.photos/800/600?sig=4936"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 93,
+    "title": "Hotel Listing 93",
+    "description": "Description of hotel listing number 93",
+    "price": 146,
+    "location": {
+      "city": "Rome",
+      "country": "Australia",
+      "address": "Street 9, City Center",
+      "latitude": 26.848336,
+      "longitude": -60.004538
+    },
+    "hotel": {
+      "name": "Hotel 93",
+      "starRating": 5,
+      "amenities": [
+        "parking",
+        "pool",
+        "wifi",
+        "gym"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Suite",
+        "capacity": 1,
+        "pricePerNight": 167,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 169,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 201,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=8350",
+        "https://picsum.photos/800/600?random?sig=5508"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 94,
+    "title": "Hotel Listing 94",
+    "description": "Description of hotel listing number 94",
+    "price": 251,
+    "location": {
+      "city": "Dubai",
+      "country": "France",
+      "address": "Street 37, City Center",
+      "latitude": -71.253818,
+      "longitude": -44.471064
+    },
+    "hotel": {
+      "name": "Hotel 94",
+      "starRating": 3,
+      "amenities": [
+        "bar",
+        "restaurant",
+        "parking",
+        "gym",
+        "spa",
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 67,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=7469",
+        "https://picsum.photos/800/600?random=234?sig=9804",
+        "https://picsum.photos/800/600?sig=8562",
+        "https://picsum.photos/800/600?random?sig=4744",
+        "https://picsum.photos/800/600?random=234?sig=2515"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 95,
+    "title": "Hotel Listing 95",
+    "description": "Description of hotel listing number 95",
+    "price": 421,
+    "location": {
+      "city": "Paris",
+      "country": "Japan",
+      "address": "Street 20, City Center",
+      "latitude": 10.718148,
+      "longitude": 77.283885
+    },
+    "hotel": {
+      "name": "Hotel 95",
+      "starRating": 4,
+      "amenities": [
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 84,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 89,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 112,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random?sig=8196",
+        "https://picsum.photos/800/600?sig=1263",
+        "https://picsum.photos/800/600?random=234?sig=430"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 96,
+    "title": "Hotel Listing 96",
+    "description": "Description of hotel listing number 96",
+    "price": 223,
+    "location": {
+      "city": "Barcelona",
+      "country": "UAE",
+      "address": "Street 34, City Center",
+      "latitude": 8.486481,
+      "longitude": -110.800814
+    },
+    "hotel": {
+      "name": "Hotel 96",
+      "starRating": 3,
+      "amenities": [
+        "parking",
+        "bar",
+        "wifi",
+        "pool"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 3,
+        "pricePerNight": 79,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 127,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?sig=6206",
+        "https://picsum.photos/800/600?random=234?sig=780",
+        "https://picsum.photos/800/600?grayscale?sig=3808",
+        "https://picsum.photos/800/600?random=234?sig=589",
+        "https://picsum.photos/800/600?random=234?sig=8507"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 97,
+    "title": "Hotel Listing 97",
+    "description": "Description of hotel listing number 97",
+    "price": 456,
+    "location": {
+      "city": "Bangkok",
+      "country": "France",
+      "address": "Street 58, City Center",
+      "latitude": 38.751915,
+      "longitude": -57.302479
+    },
+    "hotel": {
+      "name": "Hotel 97",
+      "starRating": 4,
+      "amenities": [
+        "restaurant",
+        "wifi",
+        "pool",
+        "spa",
+        "parking",
+        "gym",
+        "bar"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 130,
+        "available": false
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 117,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=5306"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 98,
+    "title": "Hotel Listing 98",
+    "description": "Description of hotel listing number 98",
+    "price": 222,
+    "location": {
+      "city": "Dubai",
+      "country": "Spain",
+      "address": "Street 4, City Center",
+      "latitude": -79.733687,
+      "longitude": -43.760888
+    },
+    "hotel": {
+      "name": "Hotel 98",
+      "starRating": 5,
+      "amenities": [
+        "spa",
+        "gym",
+        "bar",
+        "parking",
+        "pool",
+        "wifi",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Single",
+        "capacity": 3,
+        "pricePerNight": 60,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Suite",
+        "capacity": 4,
+        "pricePerNight": 127,
+        "available": false
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 61,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Double",
+        "capacity": 4,
+        "pricePerNight": 118,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/seed/picsum/800/600?sig=9055",
+        "https://picsum.photos/800/600?random=234?sig=3799"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "id": 99,
+    "title": "Hotel Listing 99",
+    "description": "Description of hotel listing number 99",
+    "price": 286,
+    "location": {
+      "city": "Bangkok",
+      "country": "France",
+      "address": "Street 87, City Center",
+      "latitude": 49.504439,
+      "longitude": 2.670218
+    },
+    "hotel": {
+      "name": "Hotel 99",
+      "starRating": 5,
+      "amenities": [
+        "parking",
+        "bar",
+        "spa",
+        "gym",
+        "pool",
+        "restaurant"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 1,
+        "pricePerNight": 216,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 2,
+        "pricePerNight": 229,
+        "available": false
+      },
+      {
+        "id": 3,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 151,
+        "available": true
+      },
+      {
+        "id": 4,
+        "type": "Suite",
+        "capacity": 2,
+        "pricePerNight": 134,
+        "available": true
+      },
+      {
+        "id": 5,
+        "type": "Suite",
+        "capacity": 3,
+        "pricePerNight": 141,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?grayscale?sig=1017"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855191-hd_1920_1080_25fps.mp4"
+      ]
+    }
+  },
+  {
+    "id": 100,
+    "title": "Hotel Listing 100",
+    "description": "Description of hotel listing number 100",
+    "price": 275,
+    "location": {
+      "city": "Paris",
+      "country": "Thailand",
+      "address": "Street 3, City Center",
+      "latitude": 57.359392,
+      "longitude": 145.275403
+    },
+    "hotel": {
+      "name": "Hotel 100",
+      "starRating": 3,
+      "amenities": [
+        "wifi"
+      ]
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "type": "Double",
+        "capacity": 2,
+        "pricePerNight": 121,
+        "available": true
+      },
+      {
+        "id": 2,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 120,
+        "available": true
+      },
+      {
+        "id": 3,
+        "type": "Single",
+        "capacity": 1,
+        "pricePerNight": 167,
+        "available": true
+      }
+    ],
+    "media": {
+      "images": [
+        "https://picsum.photos/800/600?random=234?sig=4643",
+        "https://picsum.photos/800/600?grayscale?sig=6861"
+      ],
+      "videos": [
+        "https://github.com/nilesh-kumar-gupta/mock-assets/raw/main/855139-hd_1920_1080_30fps.mp4"
+      ]
+    }
+  }
+]
