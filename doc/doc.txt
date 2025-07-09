@@ -1,0 +1,26 @@
+Requirements:-
+- listing of varoius  rooms with videos and images
+- card like component for showing individual listing and it's details
+- infinite loading, virtualized list
+- responsive design
+- optimization and scaling
+- skeleton loading
+- mock api's
+
+Components
+- Room Details
+    - show video and images,
+    - carousel like display for videos and images
+    - video prioritised
+    - expanded variant
+    - responsive image loading, srcset
+- Room Listing
+    - infinite list
+    - only load next few listings when at end
+    - images/videso should be lazy loaded when user scrolls closer to them
+
+State and Behaviour
+- Room Listing
+    - state for all rooms
+    - fetch for all details, refetch when nearing end
+    - it informs the new room cards when to start loading images
