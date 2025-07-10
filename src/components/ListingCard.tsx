@@ -1,7 +1,8 @@
 import { useEffect, useRef } from "react";
 import type { ICarouselMedia, IListing } from "../types/types";
 import Carousel from "./Carousel";
-import { useObserver } from "../context/ObserverContext";
+
+import useObserver from "../hooks/useObserver.ts";
 
 interface ListingCardProps {
     details: IListing
@@ -18,24 +19,25 @@ const ListingCard: React.FC<ListingCardProps> = ({details}) => {
     ] as ICarouselMedia[];
 
     useEffect(() => {
-        if(containerRef.current)
-            observeElement(containerRef.current);
-    
+        const containerElement = containerRef.current;
+        if(containerElement)
+            observeElement(containerElement);
+
         return () => {
-            if(containerRef.current)
-                unobserveElement(containerRef.current);
+            if(containerElement)
+                unobserveElement(containerElement);
         }
     }, [])
 
     return (
     <div 
         ref={containerRef}
-        className="w-130 border-2 mx-auto p-6 border-gray-200 rounded-2xl shadow-lg space-y-6"
+        className="w-130 h-150 border-2 mx-auto p-6 border-gray-200 rounded-2xl shadow-lg space-y-6"
     >
-        {isVisible && <Carousel mediaList={mediaList}/>}
-        <p>{details.title}</p>
-        <p>{details.description}</p>
-        <p>{details.price}</p>
+        {isVisible && <Carousel mediaList={mediaList} isVisible={isVisible}/>}
+        <p className="font-bold text-lg">{details.title}</p>
+        <p className="text-gray-700">{details.description}</p>
+        <p className="font-semibold text-lg">{details.price}/night</p>
     </div>);
 }
 
