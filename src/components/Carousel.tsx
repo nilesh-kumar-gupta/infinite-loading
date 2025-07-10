@@ -23,8 +23,8 @@ const Carousel: React.FC<ICarouselProps> = ({mediaList}) => {
   };
 
   return (
-    <div className="relative w-full h-60 sm:h-72 md:h-80 lg:h-96">
-      <div className="space-y-6 w-full h-60 sm:h-72 md:h-80 lg:h-96 p-1">
+    <div className="relative w-full h-80 flex justify-center items-center">
+      <div className="space-y-6 w-full h-60 flex justify-center items-center">
         {mediaList.map((media, index) => {
           const { type, src } = media;
           if(type === "image") {
