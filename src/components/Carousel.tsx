@@ -23,8 +23,8 @@ const Carousel: React.FC<ICarouselProps> = ({mediaList}) => {
   };
 
   return (
-    <div className="relative w-full h-80">
-      <div className="space-y-6 w-full h-80 p-1">
+    <div className="relative w-full h-60 sm:h-72 md:h-80 lg:h-96">
+      <div className="space-y-6 w-full h-60 sm:h-72 md:h-80 lg:h-96 p-1">
         {mediaList.map((media, index) => {
           const { type, src } = media;
           if(type === "image") {
@@ -32,7 +32,7 @@ const Carousel: React.FC<ICarouselProps> = ({mediaList}) => {
               <img 
                 key={index} 
                 src={src}
-                className={`max-h-80 w-auto mx-auto ${currentIndex === index ? "" : "hidden"}`}
+                className={`max-h-60 sm:max-h-72 md:max-h-80 lg:max-h-96 w-full mx-auto object-contain ${currentIndex === index ? "" : "hidden"}`}
                 alt={`Listing image ${index + 1}`}
               />
             );
@@ -41,7 +41,7 @@ const Carousel: React.FC<ICarouselProps> = ({mediaList}) => {
             <video 
               key={index} 
               src={src} 
-              className={`max-h-80 w-auto mx-auto ${currentIndex === index ? "" : "hidden"}`}
+              className={`max-h-60 sm:max-h-72 md:max-h-80 lg:max-h-96 w-full mx-auto object-contain ${currentIndex === index ? "" : "hidden"}`}
               muted
               loop
               autoPlay
@@ -56,31 +56,31 @@ const Carousel: React.FC<ICarouselProps> = ({mediaList}) => {
         <>
           <button 
             onClick={goToPrevious}
-            className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 rounded-full p-2 shadow-md hover:bg-opacity-70"
+            className="absolute left-1 sm:left-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 rounded-full p-1 sm:p-2 shadow-md hover:bg-opacity-70"
             aria-label="Previous image"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
           </button>
 
           <button 
             onClick={goToNext}
-            className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 rounded-full p-2 shadow-md hover:bg-opacity-70"
+            className="absolute right-1 sm:right-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 rounded-full p-1 sm:p-2 shadow-md hover:bg-opacity-70"
             aria-label="Next image"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
           </button>
 
           {/* Position indicators (dots) */}
-          <div className="absolute bottom-2 right-2 flex space-x-1 rounded bg-white p-2">
+          <div className="absolute bottom-1 sm:bottom-2 right-1 sm:right-2 flex space-x-1 rounded bg-white p-1 sm:p-2">
             {mediaList.map((_, index) => (
               <button
                 key={index}
                 onClick={() => goToIndex(index)}
-                className={`w-2 h-2 rounded-full ${
+                className={`w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full ${
                   currentIndex === index ? 'bg-gray-700' : 'bg-gray-400 bg-opacity-50'
                 }`}
                 aria-label={`Go to image ${index + 1}`}
